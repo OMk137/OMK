@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Table of Contents</title>
+    <style>
+        /* ==== General Page Styling ==== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #e0e0e0;
+            padding: 40px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* ==== Header ==== */
+        header {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        h1 {
+            font-size: 3.8rem;
+            font-weight: 700;
+            color: #f0c419;
+            text-shadow: 3px 3px 10px #000a;
+            text-transform: uppercase;
+            margin-top: 0.5em;
+        }
+
+        /* ==== Home Button ==== */
+        .home-btn {
+            color: #f0c419;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.6rem;
+            border: 2px solid #f0c419;
+            padding: 0.5em 1.4em;
+            border-radius: 25px;
+            display: inline-block;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .home-btn:hover {
+            background-color: #f0c419;
+            color: #1b1b1b;
+            box-shadow: 0 6px 18px #f0c419cc;
+        }
+
+        /* ==== Table of Contents List ==== */
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .toc-list li {
+            margin-bottom: 1.4em;
+        }
+
+        .toc-list a {
+            display: block;
+            padding: 1.2em 1.6em;
+            border-radius: 14px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid #f0c419;
+            color: #f0c419;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.6rem; /* Bigger font */
+            transition: all 0.3s ease;
+        }
+
+        .toc-list a:hover {
+            background: #f0c419;
+            color: #1b1b1b;
+            box-shadow: 0 4px 15px #f0c419cc;
+            transform: translateY(-3px);
+        }
+
+        /* ==== Footer ==== */
+        footer {
+            text-align: center;
+            font-size: 1rem;
+            margin-top: auto;
+            padding-top: 1.5em;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="home-btn" href="quantum.html">🏠 Home</a>
+        <h1>Table of Contents</h1>
+    </header>
+
+    <main>
+        <ul class="toc-list">
+            <li><a href="introduction.html">Introduction to Quantum Physics</a></li>
+            <li><a href="history.html">Brief History</a></li>
+            <li><a href="concept.html">Core Concepts</a></li>
+            <li><a href="experiment.html">Famous Experiments</a></li>
+            <li><a href="Comparison.html">Quantum vs Classical Physics</a></li>
+            <li><a href="application.html">Applications of Quantum Physics</a></li>
+            <li><a href="future.html">The Future of Quantum Physics</a></li>
+            <li><a href="Conclusion.html">Conclusion</a></li>
+            <li><a href="glossary.html">Glossary</a></li>
+        </ul>
+    </main>
+
+    <footer>
+   <h2>© 2025 Quantum Learning | Designed by OM_KUTI</h2>
+    </footer>
+</body>
+</html>
